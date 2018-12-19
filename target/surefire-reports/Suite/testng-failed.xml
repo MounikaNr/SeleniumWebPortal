@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="scenario 2(failed)">
+    <classes>
+      <class name="com.tripod.qa.tests.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="doLogin"/>
+          <include name="logout"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="doLoginWithInvalidCredintials"/>
+          <include name="doLoginWithInvalidPassword"/>
+        </methods>
+      </class> <!-- com.tripod.qa.tests.LoginTest -->
+    </classes>
+  </test> <!-- scenario 2(failed) -->
+  <test name="scenario 10(failed)">
+    <classes>
+      <class name="com.tripod.qa.tests.VideosTest">
+        <methods>
+          <include name="verifyVideo"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.tripod.qa.tests.VideosTest -->
+    </classes>
+  </test> <!-- scenario 10(failed) -->
+</suite> <!-- Failed suite [Suite] -->
