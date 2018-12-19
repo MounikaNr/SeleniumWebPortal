@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener"></listener>
+	</listeners>
+	<test name="SignUpTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.SignUpTest" ></class>
+		</classes>
+	</test>
+	<test name="LoginTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.LoginTest"></class>	
+		</classes>
+	</test>
+	<test name="LogoutTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.LogoutTest" ></class>
+		</classes>
+	</test>
+	 <test name="MicrosoftLoginTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.MicrosoftLoginTest"></class>	
+		</classes>
+	</test>
+	<test name="CreateProjectTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.CreateProjectTest" ></class>
+		</classes>
+	</test>
+	<test name="DeleteEnvironmentandAppTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.DeleteEnvironmentandAppTest" ></class>
+		</classes>
+	</test>
+	<test name="CrashesTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.CrashesTest" ></class>
+		</classes>
+	</test>
+	<test name="PicturesTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.PicturesTest" ></class>
+		</classes>
+	</test>
+	<test name="VideosTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.VideosTest" ></class>
+		</classes>
+	</test>
+	<test name="DeleteOrganisationTest"  >
+		<classes>
+			<class name="com.tripod.qa.tests.DeleteOrganisationTest" ></class>
+			<class name="com.tripod.qa.tests.InitializeDriver" ></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
