@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="DeleteOrganisationTest(failed)">
+    <classes>
+      <class name="com.tripod.qa.tests.DeleteOrganisationTest">
+        <methods>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="deleteOrganisaton"/>
+        </methods>
+      </class> <!-- com.tripod.qa.tests.DeleteOrganisationTest -->
+    </classes>
+  </test> <!-- DeleteOrganisationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

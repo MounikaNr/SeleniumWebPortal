@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="18" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1210359" started-at="2018-11-13T09:24:20Z" finished-at="2018-11-13T09:44:30Z">
+    <groups>
+    </groups>
+    <test name="SignUpTest" duration-ms="92465" started-at="2018-11-13T09:24:20Z" finished-at="2018-11-13T09:25:52Z">
+      <class name="com.tripod.qa.tests.SignUpTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tripod.qa.tests.SignUpTest@64729b1e]" name="initialize" is-config="true" duration-ms="42" started-at="2018-11-13T14:54:20Z" finished-at="2018-11-13T14:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="signUpProcess()[pri:1, instance:com.tripod.qa.tests.SignUpTest@64729b1e]" name="signUpProcess" duration-ms="92393" started-at="2018-11-13T14:54:20Z" finished-at="2018-11-13T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpProcess -->
+      </class> <!-- com.tripod.qa.tests.SignUpTest -->
+    </test> <!-- SignUpTest -->
+    <test name="LoginTest" duration-ms="17536" started-at="2018-11-13T09:25:53Z" finished-at="2018-11-13T09:26:10Z">
+      <class name="com.tripod.qa.tests.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tripod.qa.tests.LoginTest@76f2b07d]" name="initialize" is-config="true" duration-ms="1" started-at="2018-11-13T14:55:53Z" finished-at="2018-11-13T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="doLoginWithInvalidEmail()[pri:1, instance:com.tripod.qa.tests.LoginTest@76f2b07d]" name="doLoginWithInvalidEmail" duration-ms="624" started-at="2018-11-13T14:55:53Z" finished-at="2018-11-13T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginWithInvalidEmail -->
+        <test-method status="PASS" signature="doLoginWithInvalidPassword()[pri:2, instance:com.tripod.qa.tests.LoginTest@76f2b07d]" name="doLoginWithInvalidPassword" duration-ms="5479" started-at="2018-11-13T14:55:53Z" finished-at="2018-11-13T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginWithInvalidPassword -->
+        <test-method status="PASS" signature="doLoginWithInvalidCredintials()[pri:3, instance:com.tripod.qa.tests.LoginTest@76f2b07d]" name="doLoginWithInvalidCredintials" duration-ms="330" started-at="2018-11-13T14:55:59Z" finished-at="2018-11-13T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginWithInvalidCredintials -->
+        <test-method status="PASS" signature="doLogin()[pri:4, instance:com.tripod.qa.tests.LoginTest@76f2b07d]" name="doLogin" duration-ms="977" started-at="2018-11-13T14:55:59Z" finished-at="2018-11-13T14:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.tripod.qa.tests.LoginTest@76f2b07d]" name="logout" is-config="true" duration-ms="10117" started-at="2018-11-13T14:56:00Z" finished-at="2018-11-13T14:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.tripod.qa.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="LogoutTest" duration-ms="11434" started-at="2018-11-13T09:26:10Z" finished-at="2018-11-13T09:26:22Z">
+      <class name="com.tripod.qa.tests.LogoutTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tripod.qa.tests.LogoutTest@305fd85d]" name="initialize" is-config="true" duration-ms="2" started-at="2018-11-13T14:56:10Z" finished-at="2018-11-13T14:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Logout()[pri:1, instance:com.tripod.qa.tests.LogoutTest@305fd85d]" name="Logout" duration-ms="11431" started-at="2018-11-13T14:56:10Z" finished-at="2018-11-13T14:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.tripod.qa.tests.LogoutTest -->
+    </test> <!-- LogoutTest -->
+    <test name="MicrosoftLoginTest" duration-ms="22130" started-at="2018-11-13T09:26:22Z" finished-at="2018-11-13T09:26:44Z">
+      <class name="com.tripod.qa.tests.MicrosoftLoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tripod.qa.tests.MicrosoftLoginTest@1563da5]" name="initialize" is-config="true" duration-ms="31" started-at="2018-11-13T14:56:22Z" finished-at="2018-11-13T14:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="microsoftLogin()[pri:0, instance:com.tripod.qa.tests.MicrosoftLoginTest@1563da5]" name="microsoftLogin" duration-ms="22097" started-at="2018-11-13T14:56:22Z" finished-at="2018-11-13T14:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- microsoftLogin -->
+      </class> <!-- com.tripod.qa.tests.MicrosoftLoginTest -->
+    </test> <!-- MicrosoftLoginTest -->
+    <test name="CreateProjectTest" duration-ms="735019" started-at="2018-11-13T09:26:44Z" finished-at="2018-11-13T09:38:59Z">
+      <class name="com.tripod.qa.tests.CreateProjectTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tripod.qa.tests.CreateProjectTest@3043fe0e]" name="initialize" is-config="true" duration-ms="37" started-at="2018-11-13T14:56:44Z" finished-at="2018-11-13T14:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="addviewPermissions()[pri:1, instance:com.tripod.qa.tests.CreateProjectTest@3043fe0e]" name="addviewPermissions" duration-ms="264340" started-at="2018-11-13T14:56:44Z" finished-at="2018-11-13T15:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addviewPermissions -->
+        <test-method status="PASS" signature="addEditPermissions()[pri:2, instance:com.tripod.qa.tests.CreateProjectTest@3043fe0e]" name="addEditPermissions" duration-ms="263374" started-at="2018-11-13T15:01:08Z" finished-at="2018-11-13T15:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEditPermissions -->
+        <test-method status="PASS" signature="addNoPermissions()[pri:3, instance:com.tripod.qa.tests.CreateProjectTest@3043fe0e]" name="addNoPermissions" duration-ms="207263" started-at="2018-11-13T15:05:31Z" finished-at="2018-11-13T15:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNoPermissions -->
+      </class> <!-- com.tripod.qa.tests.CreateProjectTest -->
+    </test> <!-- CreateProjectTest -->
+    <test name="DeleteEnvironmentandAppTest" duration-ms="164008" started-at="2018-11-13T09:38:59Z" finished-at="2018-11-13T09:41:43Z">
+      <class name="com.tripod.qa.tests.DeleteEnvironmentandAppTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tripod.qa.tests.DeleteEnvironmentandAppTest@480bdb19]" name="initialize" is-config="true" duration-ms="22" started-at="2018-11-13T15:08:59Z" finished-at="2018-11-13T15:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="deleteEnvironmentAndroid()[pri:1, instance:com.tripod.qa.tests.DeleteEnvironmentandAppTest@480bdb19]" name="deleteEnvironmentAndroid" duration-ms="82616" started-at="2018-11-13T15:08:59Z" finished-at="2018-11-13T15:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEnvironmentAndroid -->
+        <test-method status="PASS" signature="deleteAppAndroid()[pri:2, instance:com.tripod.qa.tests.DeleteEnvironmentandAppTest@480bdb19]" name="deleteAppAndroid" duration-ms="71255" started-at="2018-11-13T15:10:21Z" finished-at="2018-11-13T15:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAppAndroid -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.tripod.qa.tests.DeleteEnvironmentandAppTest@480bdb19]" name="logout" is-config="true" duration-ms="10113" started-at="2018-11-13T15:11:33Z" finished-at="2018-11-13T15:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.tripod.qa.tests.DeleteEnvironmentandAppTest -->
+    </test> <!-- DeleteEnvironmentandAppTest -->
+    <test name="CrashesTest" duration-ms="8885" started-at="2018-11-13T09:41:43Z" finished-at="2018-11-13T09:41:52Z">
+      <class name="com.tripod.qa.tests.CrashesTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tripod.qa.tests.CrashesTest@7e2d773b]" name="initialize" is-config="true" duration-ms="42" started-at="2018-11-13T15:11:43Z" finished-at="2018-11-13T15:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyCrashes()[pri:0, instance:com.tripod.qa.tests.CrashesTest@7e2d773b]" name="verifyCrashes" duration-ms="8841" started-at="2018-11-13T15:11:43Z" finished-at="2018-11-13T15:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCrashes -->
+      </class> <!-- com.tripod.qa.tests.CrashesTest -->
+    </test> <!-- CrashesTest -->
+    <test name="PicturesTest" duration-ms="7777" started-at="2018-11-13T09:41:52Z" finished-at="2018-11-13T09:42:00Z">
+      <class name="com.tripod.qa.tests.PicturesTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tripod.qa.tests.PicturesTest@42f93a98]" name="initialize" is-config="true" duration-ms="46" started-at="2018-11-13T15:11:52Z" finished-at="2018-11-13T15:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyPicture()[pri:1, instance:com.tripod.qa.tests.PicturesTest@42f93a98]" name="verifyPicture" duration-ms="7729" started-at="2018-11-13T15:11:52Z" finished-at="2018-11-13T15:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPicture -->
+      </class> <!-- com.tripod.qa.tests.PicturesTest -->
+    </test> <!-- PicturesTest -->
+    <test name="VideosTest" duration-ms="11054" started-at="2018-11-13T09:42:00Z" finished-at="2018-11-13T09:42:11Z">
+      <class name="com.tripod.qa.tests.VideosTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tripod.qa.tests.VideosTest@27808f31]" name="initialize" is-config="true" duration-ms="10" started-at="2018-11-13T15:12:00Z" finished-at="2018-11-13T15:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyVideo()[pri:1, instance:com.tripod.qa.tests.VideosTest@27808f31]" name="verifyVideo" duration-ms="11042" started-at="2018-11-13T15:12:00Z" finished-at="2018-11-13T15:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVideo -->
+      </class> <!-- com.tripod.qa.tests.VideosTest -->
+    </test> <!-- VideosTest -->
+    <test name="DeleteOrganisationTest" duration-ms="139494" started-at="2018-11-13T09:42:11Z" finished-at="2018-11-13T09:44:30Z">
+      <class name="com.tripod.qa.tests.DeleteOrganisationTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.tripod.qa.tests.DeleteOrganisationTest@6b9651f3]" name="setUp" is-config="true" duration-ms="11370" started-at="2018-11-13T14:54:08Z" finished-at="2018-11-13T14:54:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72fe8a4f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.tripod.qa.tests.DeleteOrganisationTest@6b9651f3]" name="init" is-config="true" duration-ms="34" started-at="2018-11-13T15:12:11Z" finished-at="2018-11-13T15:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="deleteOrganisaton()[pri:0, instance:com.tripod.qa.tests.DeleteOrganisationTest@6b9651f3]" name="deleteOrganisaton" duration-ms="139458" started-at="2018-11-13T15:12:11Z" finished-at="2018-11-13T15:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrganisaton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tripod.qa.tests.DeleteOrganisationTest@6b9651f3]" name="tearDown" is-config="true" duration-ms="722" started-at="2018-11-13T15:14:31Z" finished-at="2018-11-13T15:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tripod.qa.tests.DeleteOrganisationTest -->
+    </test> <!-- DeleteOrganisationTest -->
+  </suite> <!-- Suite -->
+</testng-results>
